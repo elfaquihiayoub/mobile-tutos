@@ -14,4 +14,5 @@
 7)-le system redirecte l auteur vers list de article avec le nouveau article existant
 
 
-
+**Scénario nominal :**
+    l article est enregiste et l auteur est redirect a la page de list articles
