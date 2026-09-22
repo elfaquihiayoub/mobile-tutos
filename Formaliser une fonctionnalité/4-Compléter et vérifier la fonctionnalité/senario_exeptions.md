@@ -10,5 +10,5 @@
 1)-auteur a clicker sur le button enregistrer  
 2)-le system est enregistre l'article dans la base de donner sous le status brouient .
 3)-le system redirect l auteur vers la list des articles .
-
+**fin sinario:** l article a ete enregistrer mais il est non visible dans list articles de visiteur
 
