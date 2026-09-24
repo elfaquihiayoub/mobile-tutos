@@ -1,7 +1,7 @@
 ## suite de cas de blog :
 
 **La Condition** :dans l etape de (saisir les information d article ) l auteur oublier de saisir le contenu d article avant d enregistrer 
-**Scénario d’erreur**: le system blog l enregistrement d article avec message d err ( le contenu est obligatoire)
+**Scénario d’erreur**: le system block l enregistrement d article avec message d err ( le contenu est obligatoire)
 **reprise**: auteur est remplire le contenu et repeter la meme etape 
 
 
