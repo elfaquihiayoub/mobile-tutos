@@ -1,4 +1,8 @@
+
+
 <?php
+require_once __DIR__ . '/Categorie.php';
+
     class GestionCategorie {
         private static $dataFile = __DIR__ . '/../data/categories.json';
 
@@ -44,8 +48,8 @@
                 foreach($data as &$item){
                     if ($item["id"]==$Category->getId()){
                         $item["nom"]=$Category->getNom();
-                        $item["couleur"]=$Category->getNom();
-                        $item["icone"]=$Category->getNom();
+                        $item["couleur"]=$Category->getCouleur();
+                        $item["icone"]=$Category->getIcone();
                         break;
 
                     };
