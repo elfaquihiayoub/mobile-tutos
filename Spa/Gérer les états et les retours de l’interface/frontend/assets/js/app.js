@@ -1,7 +1,7 @@
-const API_url=" ";
+const API_url="http://localhost:8000/backend/api/controller/CategorieController.php";
 const form=document.getElementById("form-thematique")
 const btnSubmit=document.getElementById("btnSubmit");
-let isloading=false
+let isloading=false;
 
 function setLoadingState(isloading){
     
@@ -10,7 +10,7 @@ function setLoadingState(isloading){
 
     }
     else{
-         btnSubmit.textContent="Enregistrement..."
+         btnSubmit.textContent="Enregistrer"
     }
 
 }
