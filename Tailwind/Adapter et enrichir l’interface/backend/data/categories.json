@@ -40,5 +40,17 @@
         "couleur": "#acbfdc",
         "icone": "\ud83d\udcbb",
         "id": 7
+    },
+    {
+        "nom": "asdas",
+        "couleur": "#3b82f6",
+        "icone": "dsasas",
+        "id": 8
+    },
+    {
+        "nom": "test 3",
+        "couleur": "#3b82f6",
+        "icone": "kakkakaka",
+        "id": 9
     }
 ]
