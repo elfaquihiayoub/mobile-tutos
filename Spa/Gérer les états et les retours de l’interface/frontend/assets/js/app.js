@@ -2,7 +2,13 @@ const API_url="http://localhost:8000/backend/api/controller/CategorieController.
 const form=document.getElementById("form-thematique")
 const btnSubmit=document.getElementById("btnSubmit");
 const tableBody=document.getElementById("table-thematiques-body");
+const colorInput=document.getElementById("couleur");
+const colorValue=document.getElementById("couleur-value");
 let isloading=false;
+
+colorInput.addEventListener("input",()=>{
+    colorValue.textContent=colorInput.value.toUpperCase();
+});
 
 function setLoadingState(isloading){
     btnSubmit.disabled=isloading;
