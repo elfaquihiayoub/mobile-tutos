@@ -32,7 +32,7 @@ function displayCategories(categories) {
     categories.forEach(categorie => {
         const row = document.createElement("tr");
 
-        [categorie.id, categorie.nom, categorie.couleur, categorie.icone].forEach(value => {
+        [categorie.nom, categorie.couleur, categorie.icone].forEach(value => {
             const cell = document.createElement("td");
             cell.className = "px-6 py-3";
             cell.textContent = value ?? "";
