@@ -11,29 +11,30 @@
         <aside class="w-64 bg-gray-400 text-white flex flex-col p-3 text-center">
             <h2 class="my-5  font-bold text-2xl  ">GESTION</h2>
             <nav class="pt-5 flex flex-col">
-                <a href="#" class="text-lg p-3 bg-gray-300 rounded-xl ">thematiques</a>
+                <a href="#" class="text-lg p-3 bg-gray-300 rounded-xl ">blog</a>
             </nav>
         </aside>
 
         <div class=" flex flex-col flex-1">
             <header class=" flex justify-between p-4 bg-gray-100 border border-b">
-                <h2 class="px-3">gestion de thematiques</h2>
+                <h2 class="px-3">gestion de articles</h2>
                 <span class="px-3">admin</span>
             </header>
             
             <main class="flex flex-col ">
                 <section class="flex justify-between  h-36 text-center my-3 " >
                     <div class="   w-64">
-                         <h2 class="mb-12 font-bold text-2xl ">thematiques</h2>
-                        <p class="">the thematiques that u want </p>
+                         <h2 class="mb-12 font-bold text-2xl ">article</h2>
+                        <p class="">the articles that u want </p>
                     </div>
-                    <button class="bg-blue-400 p-4 rounded h-14 bg-blue-600 text-white py-2 rounded-lg ">ajouter une thematique</button>
+                    <button class="bg-blue-400 p-4 rounded h-14 bg-blue-600 text-white py-2 rounded-lg ">ajouter article</button>
                 </section>
                 <section class="w-full bg-gray-100 space-y-4 p-4 ">
                     <h3 class="text-lg font-semibold text-gray-700  pb-3">Ajouter / Modifier</h3>
                     <form id="form-thematique" class="space-y-4 ">
-                        <input type="text" placeholder="nom thematique" name="nom_thematique" id="nom_thematique" class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        <input type="text" placeholder="descreption thematique" name="description_thematique" id="description_thematique" class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="text" placeholder="nom categorie" name="nom" id="nom_thematique" required class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="color" name="couleur" id="couleur" value="#3B82F6" required class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="text" placeholder="icone (ex: 💻)" name="icone" id="icone" required class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
                         <div class="flex gap-3 p-5">
                             <button type="button" class="flex-1 bg-gray-200 text-gray-600 py-2 rounded-lg text-sm hover:bg-gray-300 transition-colors">Annuler</button>
                             <button type="submit" id="btnSubmit" class="flex-1 bg-blue-600 text-white py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors">Enregistrer</button>
@@ -47,9 +48,12 @@
                     <h3 class="text-lg font-semibold text-gray-700 p-6 border-b">list categories</h3>
                     <table class="w-full text-sm">
                         <thead class="bg-gray-50">
-                            <th class="text-left text-xs text-gray-500 uppercase px-6 py-3">id</th>
-                            <th class="text-left text-xs text-gray-500 uppercase px-6 py-3">nom</th>
-                            <th class="text-left text-xs text-gray-500 uppercase px-6 py-3">action</th>
+                            <tr>
+                                <th class="text-left text-xs text-gray-500 uppercase px-6 py-3">id</th>
+                                <th class="text-left text-xs text-gray-500 uppercase px-6 py-3">nom</th>
+                                <th class="text-left text-xs text-gray-500 uppercase px-6 py-3">couleur</th>
+                                <th class="text-left text-xs text-gray-500 uppercase px-6 py-3">icone</th>
+                            </tr>
                         </thead>
                         <tbody id="table-thematiques-body" class="divide-y divide-gray-10">
 
@@ -60,7 +64,7 @@
             </main>
         </div>
     </div>
-    <div id="toast-container "class="fixed top-5 right-5 z-50 space-y-3"></div>></div>
+    <div id="toast-container"class="fixed top-5 right-5 z-50 space-y-3"></div>
     <script src="/frontend/assets/js/app.js"></script>
 </body>
 </html>

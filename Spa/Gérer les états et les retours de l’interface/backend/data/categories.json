@@ -1,32 +1,38 @@
 [
     {
         "id": 1,
-        "nom": "Développement web",
+        "nom": "D\u00e9veloppement web",
         "couleur": "#3B82F6",
-        "icone": "💻"
+        "icone": "\ud83d\udcbb"
     },
     {
         "id": 2,
-        "nom": "Design UI/UX",
+        "nom": "Design UI\/UX",
         "couleur": "#8B5CF6",
-        "icone": "🎨"
+        "icone": "\ud83c\udfa8"
     },
     {
         "id": 3,
-        "nom": "Bases de données",
+        "nom": "Bases de donn\u00e9es",
         "couleur": "#10B981",
-        "icone": "🗄️"
+        "icone": "\ud83d\uddc4\ufe0f"
     },
     {
         "id": 4,
-        "nom": "Réseaux",
+        "nom": "R\u00e9seaux",
         "couleur": "#F59E0B",
-        "icone": "🌐"
+        "icone": "\ud83c\udf10"
     },
     {
         "id": 5,
-        "nom": "Sécurité informatique",
+        "nom": "S\u00e9curit\u00e9 informatique",
         "couleur": "#EF4444",
-        "icone": "🔒"
+        "icone": "\ud83d\udd12"
+    },
+    {
+        "nom": "test",
+        "couleur": "#f01800",
+        "icone": "\ud83d\udcbb",
+        "id": 6
     }
 ]
